@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/growth_layout"
+    android:name=".Growth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRowType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp" >
+
+            <TextView
+                android:id="@+id/typeHead"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/measurement_type"
+                android:textColor="#33B5E5"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/typeSpinner"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp" >
+
+            <TextView
+                android:id="@+id/dateHead"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:text="@string/measurement_date"
+                android:textColor="#33B5E5"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/weightHead"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:text="@string/measurement_weight"
+                android:textColor="#33B5E5"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lengthHead"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:text="@string/measurement_length"
+                android:textColor="#33B5E5"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/circumferanceHead"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:text="@string/measurement_circumferance"
+                android:textColor="#33B5E5"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/dateEdit"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0px"
+                android:layout_height="40dp"
+                android:layout_weight="4"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/weightEdit"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/lengthEdit"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/circumferanceEdit"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:inputType="numberDecimal" />
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/measurementList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:textColor="#33B5E5" />
+
+        <Button
+            android:id="@+id/save"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/save"
+            android:textColor="#33B5E5" />
+    </LinearLayout>
+
+</LinearLayout>

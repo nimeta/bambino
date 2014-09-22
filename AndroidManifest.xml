@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="no.brinken.bambino"
+    android:versionCode="1"
+    android:versionName="0.1" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:name="no.brinken.bambino.Bambino"
+        android:theme="@android:style/Theme.Holo" >
+		<activity
+            android:name="no.brinken.bambino.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="no.brinken.bambino.Basics"
+            android:label="@string/basics_tab" >
+        </activity>
+        <activity
+            android:name="no.brinken.bambino.Health"
+            android:label="@string/health_tab" >
+        </activity>
+        <activity
+            android:name="no.brinken.bambino.Growth"
+            android:label="@string/measurements_tab" >
+        </activity>
+        	</application>
+
+</manifest>

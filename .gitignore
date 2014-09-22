@@ -1,0 +1,8 @@
+/.metadata/
+/FragmentBasics/
+/Gral/
+*.DS_Store
+*.class
+*.dex
+*.apk
+*.classpath

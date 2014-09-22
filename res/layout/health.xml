@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/basics_fragment"
+    android:name="Health"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <Button
+	        android:id="@+id/appointment_date"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_weight="2"
+	        android:layout_width="0px"
+	        android:layout_height="wrap_content"/>
+	    
+	    <Button
+	        android:id="@+id/appointment_time"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_weight="1"
+	        android:layout_width="0px"
+	        android:layout_height="wrap_content"/>
+	     
+		</LinearLayout>    
+    
+    <TextView
+        android:id="@+id/appointment_name_head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_name_head"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/appointment_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name_hint"
+        android:inputType="textCapWords" />
+
+</LinearLayout>

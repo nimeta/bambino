@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="event_type">
+        <item >Fødsel</item>
+        <item >Helsekontroll</item>
+        <item >Barselgruppe</item>
+        <item >Egen måling</item>
+    </string-array>
+
+    <string-array name="vaccine_type">
+        <item >DTP-polio + Hib</item>
+        <item >PKV</item>
+        <item >DT</item>
+        <item >DTP-polio</item>
+        <item >Polio</item>
+        <item >MMR</item>
+        <item >HPV</item>
+        <item >Hepatitt B</item>
+        <item >BCG</item>
+    </string-array>
+ 
+    <string-array name="role_type">
+        <item >Jordmor</item>
+        <item >Lege</item>
+        <item >Helsesøster</item>
+        <item >Barselgruppemedlem</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bambino</string>
+    <string name="action_search">Søk</string>
+    <string name="action_settings">Instillinger</string>
+    
+    <string name="basics_tab">Personalia</string>
+    <string name="health_tab">Helse</string>
+    <string name="measurements_tab">Mål</string>
+    <string name="food_tab">Mat</string>
+	<string name="sleep_tab">Søvn</string>
+
+	<string name="first_name_head">FORNAVN</string>
+	<string name="first_name_hint">For- og mellomnavn</string>
+	<string name="last_name_head">ETTERNAVN</string>
+	<string name="last_name_hint">Etternavn</string>
+	<string name="foedt_head">FØDT</string>
+	<string name="personnr_head">PERSONNUMMER</string>
+	<string name="personnr_hint">5 sifre</string>
+	<string name="vekt_head">FØDSELSVEKT</string>
+	<string name="vekt_hint">Fødselsvekt i gram</string>
+	<string name="lengde_head">LENGDE VED FØDSEL</string>
+	<string name="lengde_hint">Lengde i cm med én desimal</string>
+	<string name="hodeomkrets_head">HODEOMKRETS VED FØDSEL</string>
+	<string name="hodeomkrets_hint">Hodeomkrets i cm med én desimal</string>
+	
+	<string name="measurement_type">MÅLING VED:</string>
+	<string name="measurement_date">DATO</string>
+	<string name="measurement_weight">VEKT</string>
+	<string name="measurement_length">LENGDE</string>
+	<string name="measurement_circumferance">OMKRETS</string>
+			
+	<string name="cancel">Avbryt</string>
+	<string name="save">Lagre</string>
+									
+</resources>
