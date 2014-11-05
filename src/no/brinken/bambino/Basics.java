@@ -2,6 +2,7 @@ package no.brinken.bambino;
 
 import java.text.NumberFormat;
 
+import no.brinken.orm.DB;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.DialogFragment;

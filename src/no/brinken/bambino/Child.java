@@ -1,5 +1,9 @@
 package no.brinken.bambino;
 
+import no.brinken.orm.IdField;
+import no.brinken.orm.PrimaryKey;
+import no.brinken.orm.TableObject;
+
 public class Child extends TableObject
 {
 	@IdField

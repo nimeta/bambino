@@ -1,5 +1,9 @@
 package no.brinken.bambino;
 
+import no.brinken.orm.IdField;
+import no.brinken.orm.PrimaryKey;
+import no.brinken.orm.TypeTableObject;
+
 public class Event_type extends TypeTableObject
 {
 	@IdField
